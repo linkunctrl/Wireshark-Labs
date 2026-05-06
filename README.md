@@ -1,8 +1,8 @@
-Wireshark Labs
+## Wireshark Labs
 
 This repository contains detailed packet-level analysis and investigation reports for various network scenarios. Each lab focuses on a specific protocol or network event, utilizing industry-standard traffic captures to identify anomalies, security threats, and configuration errors.
  Lab Overview
-1. ARP Cache Poisoning Analysis
+### 1. ARP Cache Poisoning Analysis
 
 File: arp_storm.pcap
 An investigation into a deliberate ARP spoofing attack.
@@ -13,7 +13,7 @@ An investigation into a deliberate ARP spoofing attack.
 
     Outcome: Documented the "ARP storm" rate (~21 packets/second) and the systematic mapping of the target subnet.  
 
-2. DNS Infrastructure & Misconfiguration
+### 2. DNS Infrastructure & Misconfiguration
 
 File: dns.cap
 A comparative study of two hosts and their DNS resolution behaviors.
@@ -24,7 +24,7 @@ A comparative study of two hosts and their DNS resolution behaviors.
 
     Outcome: Diagnosed a DNS misconfiguration leading to authentication failures and information disclosure.
 
-3. HTTP Transaction & Ad-Traffic Flow
+### 3. HTTP Transaction & Ad-Traffic Flow
 
 File: http.cap
 A deep dive into the lifecycle of a web request.
@@ -35,7 +35,7 @@ A deep dive into the lifecycle of a web request.
 
     Outcome: Verified a clean HTTP session with 0% retransmissions and successful 200 OK status codes.
 
-🛠 Tools & Methodology
+## 🛠 Tools & Methodology
 
     Analysis Tool: Wireshark
 
@@ -47,7 +47,7 @@ A deep dive into the lifecycle of a web request.
 
         arp.opcode == 1 (Filter ARP requests)  
 
-🔗 Resources
+##  Resources
 
 The packet captures analyzed in these labs were sourced from the Wireshark Wiki Sample Captures:
  https://wiki.wireshark.org/samplecaptures
